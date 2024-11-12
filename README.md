@@ -1,14 +1,14 @@
 # TecChallenge-1
 
 ## Stack used
-FrontEnd: Angular V18 + Bootstrap.
-BackEnd: NodeJS + Express + Sequelize.
-DB: MySQL Workbench + XAMPP.
+FrontEnd: Angular V18 + Bootstrap.<br/>
+BackEnd: NodeJS + Express + Sequelize.<br/>
+DB: MySQL Workbench + XAMPP.<br/>
 
 ## ¿How to install?
-Clone the repo in your IDE.
-Change to "client" directory.
-Use `npm install` to install all dependencies.
-Change to "server" directory.
-Use `npm install` to install all dependencies.
-Use `npm start` to run server and `ng serve` to run client.
+Clone the repo in your IDE.<br/>
+Change to "client" directory.<br/>
+Use `npm install` to install all dependencies.<br/>
+Change to "server" directory.<br/>
+Use `npm install` to install all dependencies.<br/>
+Use `npm start` to run server and `ng serve` to run client.<br/>
