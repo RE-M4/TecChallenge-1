@@ -5,7 +5,7 @@ FrontEnd: Angular V18 + Bootstrap.<br/>
 BackEnd: NodeJS + Express + Sequelize.<br/>
 DB: MySQL Workbench + XAMPP.<br/>
 
-## ¿How to install?
+## How to install?
 Clone the repo in your IDE.<br/>
 Change to "client" directory.<br/>
 Use `npm install` to install all dependencies.<br/>
