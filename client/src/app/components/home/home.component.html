@@ -1,0 +1,22 @@
+<div class="row text-center mt-2 mb-2">
+    <h1>Orders</h1>
+</div>
+<div class="row">
+    <div class="card-group">
+        <div class="card" *ngFor="let order of orders">
+          <div class="card-body">
+            <p class="card-text">OrderID: {{order.id}}</p>
+            <p class="card-text">Customer's Name: {{order.customers_name}}</p>
+            <p class="card-text">Item: {{order.item}}</p>
+            <p class="card-text">Quantity: {{order.quantity}}</p>
+            <p class="card-text">Status: {{order.status}}</p>
+            <p><button><a [routerLink]="['/details', order.id]">Details</a></button></p>
+          </div>
+        </div>
+    </div>
+</div>
+<div class="row text-center mt-5">
+    <div class="pagination-controls"> 
+        <button (click)="onPageChange(currentPage - 1)" [disabled]="currentPage === 1">Previous</button> <span>Página {{ currentPage }} de {{ totalPages }}</span> <button (click)="onPageChange(currentPage + 1)" [disabled]="currentPage === totalPages">Siguiente</button> 
+    </div>
+</div>

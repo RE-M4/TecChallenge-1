@@ -1,0 +1,28 @@
+<div class="row">
+    <h1>{{isEditMode ? 'Editing order' : 'Creating order'}}</h1>
+</div>
+<div class="row">
+    <form (ngSubmit)="saveOrder()">
+        <div class="mb-3">
+          <label for="customers_name" class="form-label">Customer's Name</label>
+          <input type="text" class="form-control" id="customers_name" name="customers_name" [(ngModel)]="order.customers_name">
+        </div>
+        <div class="mb-3">
+          <label for="item" class="form-label">Item</label>
+          <input type="text" class="form-control" id="item" name="item" [(ngModel)]="order.item">
+        </div>
+        <div class="mb-3">
+            <label for="quantity" class="form-label">Quantity</label>
+            <input type="number" class="form-control" id="quantity" name="quantity" [(ngModel)]="order.quantity">
+        </div>
+        <div class="mb-3">
+            <label for="status" class="form-label">Status</label>
+            <select name="status" id="status" class="form-select" [(ngModel)]="order.status">
+                <option value="pending">Pending</option>
+                <option value="completed">Completed</option>
+                <option value="cancelled">Cancelled</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+</div>
