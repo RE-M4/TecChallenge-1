@@ -1,0 +1,33 @@
+<div class="row mt-4 mb-4 text-center">
+  <h3>OrderID: {{orderId}}</h3>
+</div>
+
+<div class="row">
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Customer's Name</th>
+            <th scope="col">Item</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">Status</th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>{{order.customers_name}}</td>
+            <td>{{order.item}}</td>
+            <td>{{order.quantity}}</td>
+            <td>{{order.status}}</td>
+            <td><button><a [routerLink]="['/form', order.id]">Edit</a></button></td>
+            <td><button (click)="deleteOrder(order.id)">Delete</button></td>
+          </tr>
+        </tbody>
+      </table>
+</div>
+<div class="row mt-5">
+    <button class="btn-blue"><a [routerLink]="['/orders']">Back to home</a></button>
+</div>

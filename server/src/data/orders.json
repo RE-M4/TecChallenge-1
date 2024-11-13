@@ -1,0 +1,162 @@
+[
+    {
+        "id": "123e4567-e89b-12d3-a456-426614174000",
+        "customer_name": "Juan Pérez",
+        "item": "Laptop",
+        "quantity": 1,
+        "status": "completed",
+        "created_at": "2023-11-07T12:00:00Z"
+    },
+    {
+        "id": "123e4567-e89b-12d3-a456-426614174001",
+        "customer_name": "María Gómez",
+        "item": "Mouse",
+        "quantity": 2,
+        "status": "pending",
+        "created_at": "2023-10-25T09:30:00Z"
+    },
+    {
+        "id": "123e4567-e89b-12d3-a456-426614174002",
+        "customer_name": "Carlos Ruiz",
+        "item": "Teclado",
+        "quantity": 1,
+        "status": "canceled",
+        "created_at": "2023-09-18T14:45:00Z"
+    },
+    {
+        "id": "123e4567-e89b-12d3-a456-426614174003",
+        "customer_name": "Ana López",
+        "item": "Monitor",
+        "quantity": 3,
+        "status": "completed",
+        "created_at": "2023-08-12T16:20:00Z"
+    },
+    {
+        "id": "123e4567-e89b-12d3-a456-426614174004",
+        "customer_name": "Pedro Sánchez",
+        "item": "Impresora",
+        "quantity": 1,
+        "status": "pending",
+        "created_at": "2023-07-22T11:05:00Z"
+    },
+    {
+        "id": "123e4567-e89b-12d3-a456-426614174005",
+        "customer_name": "Lucía Fernández",
+        "item": "Escáner",
+        "quantity": 2,
+        "status": "canceled",
+        "created_at": "2023-06-15T08:55:00Z"
+    },
+    {
+        "id": "123e4567-e89b-12d3-a456-426614174006",
+        "customer_name": "Miguel Hernández",
+        "item": "Cámara",
+        "quantity": 1,
+        "status": "completed",
+        "created_at": "2023-05-28T10:40:00Z"
+    },
+    {
+        "id": "123e4567-e89b-12d3-a456-426614174007",
+        "customer_name": "Laura Martínez",
+        "item": "Tablet",
+        "quantity": 1,
+        "status": "pending",
+        "created_at": "2023-04-10T13:15:00Z"
+    },
+    {
+        "id": "123e4567-e89b-12d3-a456-426614174008",
+        "customer_name": "Roberto García",
+        "item": "Teléfono",
+        "quantity": 3,
+        "status": "completed",
+        "created_at": "2023-03-07T17:30:00Z"
+    },
+    {
+        "id": "123e4567-e89b-12d3-a456-426614174009",
+        "customer_name": "Carmen Torres",
+        "item": "Auriculares",
+        "quantity": 2,
+        "status": "canceled",
+        "created_at": "2023-02-15T15:25:00Z"
+    },
+    {
+        "id": "123e4567-e89b-12d3-a456-426614174010",
+        "customer_name": "Sofía Morales",
+        "item": "Proyector",
+        "quantity": 1,
+        "status": "pending",
+        "created_at": "2023-11-01T14:30:00Z"
+        },
+        {
+        "id": "123e4567-e89b-12d3-a456-426614174011",
+        "customer_name": "Javier Castro",
+        "item": "Router",
+        "quantity": 2,
+        "status": "completed",
+        "created_at": "2023-10-12T13:20:00Z"
+        },
+        {
+        "id": "123e4567-e89b-12d3-a456-426614174012",
+        "customer_name": "Marta Ríos",
+        "item": "Disco Duro",
+        "quantity": 3,
+        "status": "canceled",
+        "created_at": "2023-09-05T11:00:00Z"
+        },
+        {
+        "id": "123e4567-e89b-12d3-a456-426614174013",
+        "customer_name": "Tomás Vázquez",
+        "item": "Memoria USB",
+        "quantity": 1,
+        "status": "completed",
+        "created_at": "2023-08-14T15:45:00Z"
+        },
+        {
+        "id": "123e4567-e89b-12d3-a456-426614174014",
+        "customer_name": "Elena Rodríguez",
+        "item": "Altavoces",
+        "quantity": 2,
+        "status": "pending",
+        "created_at": "2023-07-30T10:30:00Z"
+        },
+        {
+        "id": "123e4567-e89b-12d3-a456-426614174015",
+        "customer_name": "Pablo Jiménez",
+        "item": "Ratón inalámbrico",
+        "quantity": 4,
+        "status": "canceled",
+        "created_at": "2023-06-17T09:00:00Z"
+        },
+        {
+        "id": "123e4567-e89b-12d3-a456-426614174016",
+        "customer_name": "Alicia Romero",
+        "item": "Micrófono",
+        "quantity": 1,
+        "status": "completed",
+        "created_at": "2023-05-25T13:15:00Z"
+        },
+        {
+        "id": "123e4567-e89b-12d3-a456-426614174017",
+        "customer_name": "Diego Domínguez",
+        "item": "Webcam",
+        "quantity": 2,
+        "status": "pending",
+        "created_at": "2023-04-09T14:00:00Z"
+        },
+        {
+        "id": "123e4567-e89b-12d3-a456-426614174018",
+        "customer_name": "Cecilia Peña",
+        "item": "Consola de juegos",
+        "quantity": 1,
+        "status": "canceled",
+        "created_at": "2023-03-18T16:40:00Z"
+        },
+        {
+        "id": "123e4567-e89b-12d3-a456-426614174019",
+        "customer_name": "Francisco Muñoz",
+        "item": "Smartwatch",
+        "quantity": 3,
+        "status": "completed",
+        "created_at": "2023-02-27T12:50:00Z"
+        }
+]
